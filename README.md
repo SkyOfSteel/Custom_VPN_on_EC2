@@ -26,6 +26,8 @@ This step-by-step guide is intended to show how to host a t2.micro Ubuntu server
 8. Confirm the default settings for OpenVPN during the installation process.
 9. After the installation is complete, an `.OVPN` file will be created in the current EC2 directory.
 10. Copy the `.OVPN` file to your computer.
+> [!NOTE]
+> For the sake of convenience, use [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) to connect to your EC2 instance via the FTP and transfer the file to your computer.
 11. Launch OpenVPN on your computer, right-click the OpenVPN icon in the tray and click Import.
 12. Select the `.OVPN` file from your computer and click Open.
     
