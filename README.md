@@ -28,3 +28,7 @@ This step-by-step guide is intended to show how to host a t2.micro Ubuntu server
 10. Copy the `.OVPN` file to your computer.
 11. Launch OpenVPN on your computer, right-click the OpenVPN icon in the tray and click Import.
 12. Select the `.OVPN` file from your computer and click Open.
+    
+![Illustration](https://github.com/SkyOfSteel/Custom_VPN_on_EC2/blob/main/docs/OpenVPN%20example.png "Adding an .OVPN file to OpenVPN")
+
+13. Right-click the OpenVPN icon in the tray again, hover the mouse over the name of your VPN server and click Connect.
