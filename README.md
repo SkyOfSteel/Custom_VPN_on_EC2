@@ -11,4 +11,7 @@ This step-by-step guide is intended to show how to host a t2.micro Ubuntu server
 4. In the Security Groups settings, add an inbound rule to allow the traffic from the UDP port 1194:
    - Select Custom UDP in the Type field.
    - In the Port Range field, type 1194.
+
+![Illustration](docs/SG%20example.png "EC2 Security Group - Adding a new rule")
+
 5. 
