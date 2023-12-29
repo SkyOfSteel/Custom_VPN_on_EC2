@@ -23,7 +23,7 @@ This step-by-step guide is intended to show how to host a t2.micro Ubuntu server
    sudo chmod +x openvpn-install.sh
    sudo ./openvpn-install.sh
    ```
-8. Confirm the default settings for OpenVPN on the Ubuntu server.
+8. Confirm the default settings for OpenVPN during the installation process.
 9. After the installation is complete, an `.OVPN` file will be created in the current EC2 directory.
 10. Copy the `.OVPN` file to your computer.
 11. Launch OpenVPN on your computer, right-click the OpenVPN icon in the tray and click Import.
