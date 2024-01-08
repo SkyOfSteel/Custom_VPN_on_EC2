@@ -14,6 +14,8 @@ This step-by-step guide is intended to show how to host a t2.micro Ubuntu server
 
 ![Illustration](docs/SG%20example.png "EC2 Security Group - Adding a new rule")
 
+> [!NOTE]
+> If you ever intend to stop and restart the EC2 instance, add an Elastic IP before proceeding, so that the created VPN configuration file has a permanent IP address associated with it. Otherwise, the configuration file will need to be edited every time the EC2 instance changes the IP address.
 5. Log into your new EC2 instance via SSH by following the [reference](https://github.com/SkyOfSteel/EC2_SSH_Login).
 6. In the browser, navigate to the [openvpn-install](https://github.com/angristan/openvpn-install) repository.
 7. In the SSH terminal, run the following commands from the Readme in the [openvpn-install](https://github.com/angristan/openvpn-install) repository one by one to install OpenVPN:
